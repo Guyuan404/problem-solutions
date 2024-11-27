@@ -1,40 +1,55 @@
-# Problem Solutions Collection
+# Problem Solutions Documentation
 
-这个仓库用于记录日常遇到的各种问题及其解决方案。每个问题都会以独立的 Markdown 文件形式保存，包含以下内容：
-
-- 问题描述
-- 解决思路
-- 具体解决方案
-- 相关参考资料（如果有）
+这个仓库包含了各种编程问题的解决方案和环境配置指南。
 
 ## 目录结构
 
 ```
 problem-solutions/
-├── README.md
-└── solutions/       # 存放所有解决方案的文件夹
+├── programming/          # 编程问题解决方案
+│   ├── c/               # C语言相关问题
+│   │   ├── struct/      # 结构体相关
+│   │   └── algorithm/   # 算法相关
+│   └── ...              # 其他编程语言
+│
+├── environment/         # 环境配置和工具使用指南
+│   ├── git/            # Git相关
+│   ├── github/         # GitHub相关
+│   └── tools/          # 其他工具
+│
+└── README.md           # 项目说明文档
 ```
 
-## 使用方法
+## 编程问题 (Programming)
 
-1. 在 `solutions` 文件夹中创建新的 .md 文件
-2. 文件命名建议：使用简短的英文描述问题，例如 `git-merge-conflict.md`
-3. 按照模板格式记录问题和解决方案
+### C语言问题
+1. [结构体指针处理学生信息](./programming/c/struct/student-info/)
+2. [乒乓球比赛配对问题](./programming/c/algorithm/pingpong-match/)
+3. [运输公司计算运费问题](./programming/c/algorithm/freight-calc/)
 
-## 模板格式
+## 环境配置 (Environment)
 
-```markdown
-# [问题标题]
+### GitHub
+1. [GitHub CLI介绍](./environment/github/cli-intro/)
+2. [GitHub CLI环境配置](./environment/github/cli-setup/)
+3. [GitHub CLI命令行兼容性问题](./environment/github/cli-compatibility/)
 
-## 问题描述
-[详细描述遇到的问题]
+### 工具
+1. [添加winget到环境变量](./environment/tools/winget-path/)
 
-## 解决思路
-[解决问题的思考过程]
+## 贡献指南
 
-## 解决方案
-[具体的解决步骤]
+### 添加新的问题解决方案
+1. 在appropriate的目录下创建新文件夹
+2. 添加完整的问题描述（README.md）
+3. 提供详细的解决方案代码
+4. 包含测试用例和运行结果
 
-## 参考资料
-[相关链接或参考文档]
-```
+### 添加新的环境配置指南
+1. 在appropriate的目录下创建新文件夹
+2. 提供清晰的步骤说明
+3. 包含常见问题和解决方案
+4. 添加相关参考链接
+
+## 许可证
+MIT License
